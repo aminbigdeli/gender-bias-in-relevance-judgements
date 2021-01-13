@@ -57,7 +57,7 @@ def create_data_loader(df, tokenizer, max_len, batch_size):
   return DataLoader(
     ds,
     batch_size = batch_size,
-    num_workers = 5 # num_workers should be 0 while running the code on CPU
+    num_workers = 5 
   )
 
 #Prediction function
